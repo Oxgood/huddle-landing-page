@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+}
+.main{
+    margin: 50px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button{
+    width: 120px;
+    height: 30px;
+    color: hsl(321, 100%, 78%);
+    background-color: white;
+    border: 2px solid hsl(321, 100%, 78%);
+    border-radius: 20px;
+    cursor: pointer;
+}
+nav button:active{
+    background-color: hsl(321, 100%, 78%);
+    color: white;
+}
+
+nav img{
+    width: 150px;
+}
+
+.text1{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.text1 button{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color:hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+    margin-top: 30px;
+    cursor: pointer;
+}
+.text1 button:active{
+    background-color: hsl(321, 100%, 78%);
+    color: white;
+}
+.text1 h1{
+    width: 100%;
+    text-align: center;
+    font-family: poppins;
+}
+
+.text1 p{
+    width: 100%;
+    text-align: center;
+    font-family: open sans;
+    color: gray;
+}
+
+.bigpic{
+    width: 80%;
+    margin-top: 30px;
+}
+
+.bigpic img{
+    width: 100%;
+}
+
+.stats{
+    margin-top: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-family: open sans;
+}
+
+.stats img{
+    width: 24px;
+    height: 24px;
+}
+
+.stats p{
+    color: gray;
+    font-size: 12px;
+}
+.sec2 img{
+    width: 100%;
+    margin: 0;
+}
+.insec2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsl(207, 100%, 98%);
+    margin-top: -10px;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+.insec2text {
+    width: 40%;
+    font-family: poppins;
+}
+.insec2text p{
+    font-family: open sans;
+    font-size: 14px;
+}
+.insec2pic {
+    width: 40%;
+}
+.insec3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.insec3 img{
+    width: 40%;
+}
+.insec3text{
+    width: 40%;
+}
+
+.sec3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec3 button{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color:hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+    margin-top: 30px;
+    cursor: pointer;
+}
+.sec3 button:active{
+    background-color: hsl(321, 100%, 78%);
+    color: white;
+}
+.footerborder{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+    width: 100%;
+    height: 300px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+.footerleft{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 100px;
+    font-family: open sans;
+}
+.phone{
+    display: flex;
+    margin-top: 20px;
+}
+.phone img{
+    padding-right: 20px;
+}
+.footerright{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 5%;
+    font-family: open sans;
+}
+.footerright div button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color:hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+    margin-top: 30px;
+    cursor: pointer;
+}
+.footerright div button:active{
+    background-color: hsl(321, 100%, 78%);
+    color: white;
+}
